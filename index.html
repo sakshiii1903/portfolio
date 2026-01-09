@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sakshi | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <h1 class="logo">MyPortfolio</h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+  <div class="hero-content">
+
+    <div class="hero-text">
+      <h2>Hello, I'm <span>Sakshi</span></h2>
+      <p class="tagline">A Fresher Web Developer</p>
+      <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+        Hire Me
+      </button>
+    </div>
+
+    <div class="hero-image">
+      <img src="Sakshi.png" alt="My Profile Photo" class="profile-img">
+    </div>
+
+  </div>
+</section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I am a fresher web developer with knowledge of HTML, CSS, and JavaScript.
+      I love creating simple, responsive, and user-friendly websites.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-container">
+      <div class="project-card">
+        <h3>Project 1</h3>
+        <p>Responsive portfolio design.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Project 2</h3>
+        <p>API Based Weather App Using Basic JavaScript .</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Project 3</h3>
+        <p>Simple website using HTML and CSS.</p>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p><strong>Email:</strong> sakshisawant0341@gmail.com</p>
+    <p class="socials">LinkedIn | GitHub | Instagram</p>
+  </section>
+            <script src="script.js"></script>
+
+</body>
+</html>
